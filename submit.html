@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+form{
+text-align:center;
+text-align:justify;
+margin:50px 300px 0px 200px;
+border:2px solid green;
+line-height:50px;
+padding:20px;
+background-color:black;
+color:yellow;
+border-radius:5px ;
+font-size:30px;
+}
+h1{
+color:red;
+text-align:center;
+text-transform:capitalize;
+background-color:yellow;
+width:50%;
+margin:0px 0px 0px 300px;
+}
+body{
+background-color:aqua;
+}
+</style>
+</head>
+<body>
+<h1>welcome to login page</h1>
+<center>
+<form action="file:///C:/Users/family/Documents/dtime.html" method="post" name="my" onsubmit="return ab()" >
+entermail:<input type="email" name="email" ></br>
+password:<input type="password" name="password">
+<button>login</button>
+</form>
+<script>
+function ab(){
+var a,b;
+a=document.my.email.value;
+b=document.my.password.value;
+if(a=="saleemshaik7813@gmail.com"&&b=="saleem"){
+return true;
+}else{
+alert("enter correct mail and correct password");
+return false;
+}
+}
+
+</script>
+</body>
+</html>
